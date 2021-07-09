@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/aleale2121/GoWebSocket_Chat/internal/handlers"
 	"log"
 	"net/http"
 )
@@ -8,6 +9,9 @@ import (
 func main() {
 
 	mux := routes()
+
+	log.Println("Starting channel listener")
+	go handlers.ListenToWsChannel()
 
 	log.Println("Starting web server on port 8080")
 
