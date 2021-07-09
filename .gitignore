@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+./.idea
+./.idea/.gitignore
+./.idea/modules.xml
+./.idea/misc.xml
+./.idea/GoWebSocket_Chat.iml
+./.idea/workspace.xml
